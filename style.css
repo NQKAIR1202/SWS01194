@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0047AB;
+    color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo img {
+    width: 350px
+   
+}
+
+.logo img {
+    display: block;
+}
+
+.logo {
+    font-size: 2px;
+    font-weight: bold;
+}
+
+
+.youtube-logo img {
+    width: 80px; 
+    height: auto;
+    transition: transform 0.3s ease; 
+}
+.youtube-logo img:hover {
+    transform: scale(1.1); 
+}
+
+
+.team-title {
+    text-align: center;
+    color: #FF7F50;
+    background-color: #083e8ab4;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #92161600;
+    padding: 190px 0;
+}
+
+.team-member {
+    background: #0047ab;
+    width: 2700px;
+    text-align: center;
+    padding: 100px;
+    border-radius: 5px;
+    color: #000000; 
+    font-weight: bold;
+    font-size: 24px;
+     margin-top: 10px;
+    
+    
+}
+
+.avatar {
+    width: 1%;
+    height: auto;
+    background: #d36b0a;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+}
+
+body {
+    background-image: url('logo/wallpaper.webp');
+    background-size: 110px;
+    background-position: center;
+    background-attachment: fixed;
+}
+.map-icon {
+    width: 80px;  
+    height: auto;
+    display: block;
+    margin-left: 600px;
+    transition: transform 0.3s ease; 
+}
+
+.team-title{
+    color: #4fdafd;
+}
+
+.back-button img {
+    width: 200px; 
+    height: auto;
+    background-color: #8f0a00;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid rgb(231, 133, 4);
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+.team-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+gap: 200px;
+padding: 100px;
+
+}
+.team-member {
+    background-color: #0047ab;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 650px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

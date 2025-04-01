@@ -1,0 +1,105 @@
+body {
+    background-image: url('logo/wallpaper.webp');
+    background-size: 110px;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+.header {
+    background-color: #0056b3;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 100px; 
+}
+
+.youtube-icon img {
+    height: 100px; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 220px auto 50px; 
+}
+
+.form-container {
+    background: #0057b3b9;
+    color: rgb(250, 250, 250);
+    padding: 50px;
+    border-radius: 60px;
+    box-shadow: 10 10 60px rgb(247, 2, 2);
+    
+}
+
+.btn {
+    color: rgb(0, 0, 0);
+    size: 10px;
+    background-color: rgb(236, 7, 7);
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 12px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #09da36; 
+}
+
+.map-icon {
+    width: 80px;  
+    height: auto;
+    display: block;
+    margin-left: 600px;
+    transition: transform 0.3s ease; 
+}
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+textarea {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+.otherSkillsContainer{
+    display: none;
+}
+
+
+#otherSkillCheckbox:checked ~ .otherSkillsContainer {
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

@@ -1,0 +1,50 @@
+
+
+body {background-color: #000000;}
+
+.ontop {
+    background-color: #0057b3;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+    .companylogo{ width: 200px;
+        height: 200px;}
+
+.youtubelogo {
+    width: 100px;
+    height: 100px;}
+
+.jobtop {text-align: center;
+font-style: bold;
+font-size: 30px;}
+
+.text {
+padding: 20px;
+background-color: white;
+}
+
+.requirement {font-weight: bold;}
+
+
+footer {
+    font-size: 14px;
+  }
+ 
+.form {width:300px;
+height: 150px;
+position: relative;
+text-align: center;
+font-size: 30px;
+}
+
+
+.topen {text-align: center;
+    font-style: bold;
+    font-size: 30px;}
+
+.map {text-align: center;}
+
